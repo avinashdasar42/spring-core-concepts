@@ -19,7 +19,7 @@ public class OrderService {
 //    5. chances of NPE: with field DI, spring create bean first and resolve dependency later i.e At construction time, dependency is null only
 //    what if we call method before spring finishes injection >> we get NPE
 
-    @Autowired
+//    @Autowired
     private PaymentService paymentService;
 
     public void placeOrder(){
