@@ -3,8 +3,10 @@ package com.example.spring_core_concepts.circularDependency;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RestController;
 
 @Component
+@RestController
 //@Lazy
 public class A {
 
